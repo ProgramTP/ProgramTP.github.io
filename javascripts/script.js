@@ -216,7 +216,6 @@ function connect() {
         ctx.moveTo(starsArray[i].x, starsArray[i].y);
         ctx.lineTo(starsArray[x].x, starsArray[x].y);
         ctx.stroke();
-        console.log("Yo");
       }
     }
   }
